@@ -7,18 +7,17 @@
 .informativo-1 {
     color: #495057;
     font-size: 12px;
+    text-align: center;
 }
 
 .informativo-2 {
     color: #343A40;
     font-size: 24px;
+    text-align: center;
 }
 
 .informativo-3 {
     color: #495057;
     font-size: 16px;
-}
-
-p {
     text-align: center;
 }
