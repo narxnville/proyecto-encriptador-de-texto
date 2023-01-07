@@ -1,3 +1,24 @@
+#alura-logo {
+    width: 120px;
+    height: 48px;
+}
+
+/* alura-icon {
+    height: 300px;
+    width: 304px;
+    margin-top: 283px;
+    margin-left: 1032px;
+} */
+
+.container-box-1 {
+    position: absolute;
+    height: 300px;
+    width: 304px;
+    padding: 10px 40px 10px 10px;
+    margin-top: 70px;
+    margin-left: 940px;
+}
+
 .title {
     color: #0A3871;
     font-size: 32px;
