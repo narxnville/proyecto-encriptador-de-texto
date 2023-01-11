@@ -3,25 +3,28 @@
     height: 48px;
 }
 
-/* alura-icon {
+.alura-icon {
     height: 300px;
     width: 304px;
-    margin-top: 283px;
+    margin-top: 5px;
     margin-left: 1032px;
-} */
+    display: inline-block;
+}
 
-.container-box-1 {
+/*  .container-box-1 {
     position: absolute;
     height: 300px;
     width: 304px;
     padding: 10px 40px 10px 10px;
     margin-top: 70px;
     margin-left: 940px;
-}
+}*/
 
-.title {
+h1 {
     color: #0A3871;
     font-size: 32px;
+    font-weight: bold;
+    display: inline;
 }
 
 .informativo-1 {
@@ -29,7 +32,7 @@
     font-size: 12px;
 }
 
-#informativo-2 {
+.informativo-2 {
     color: #343A40;
     font-size: 24px;
 }
