@@ -36,35 +36,5 @@ header img {
     display: inline;
 }
 
-.container-box {
-    height: 300px;
-    width: 304px;
-    padding: 20px 20px 225px 20px;
-    margin-top: 0px;
-    margin-left: 940px;
-    border: 1px solid red;
-}
 
-.alura-image {
-    height: 300px;
-    width: 290px;
-    margin-top: 5px;
-    display: inline;
-}
-
-.no-encontrado {
-    color: #343A40;
-    text-align: center;
-    font-size: 24px;
-    border: 1px solid red;
-    padding: 5px 5px 5px 20px;
-    margin-top: 5px;
-}
-
-.texto-encriptado {
-    color: #495057;
-    font-size: 16px;
-    border: 1px solid red;
-    text-align: center;
-}
 
