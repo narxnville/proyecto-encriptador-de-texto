@@ -29,27 +29,32 @@ header img {
 }
 
 .boton-encriptar {
-    display: inline;
+    display: inline-block;
 }
 
 .boton-desencriptar {
-    display: inline;
+    display: inline-block;
 }
 
-.container-box {
+.caja-margen {
+    border: 1px solid green;
+    position: relative;
+}
+
+.contenido-caja {
     height: 300px;
     width: 304px;
     padding: 20px 20px 225px 20px;
     margin-top: 0px;
     margin-left: 940px;
-    border: 1px solid red;
 }
 
 .alura-image {
     height: 300px;
-    width: 290px;
+    width: 302px;
     margin-top: 5px;
-    display: inline;
+    display: inline-block;
+    border: 1px solid red;
 }
 
 .no-encontrado {
@@ -58,7 +63,7 @@ header img {
     font-size: 24px;
     border: 1px solid red;
     padding: 5px 5px 5px 20px;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 .texto-encriptado {
@@ -66,5 +71,6 @@ header img {
     font-size: 16px;
     border: 1px solid red;
     text-align: center;
+    margin-top: 10px;
 }
 
