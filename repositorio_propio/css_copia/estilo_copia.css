@@ -1,0 +1,70 @@
+header img {
+    width: 120px;
+    height: 48px;
+    position: relative;
+    border: 1px solid red;
+    left: 40px;
+    top: 40px;
+}
+
+.ingresar-texto {
+    color: #0A3871;
+    font-size: 34px;
+    font-weight: bold;
+    display: inline;
+    position: absolute;
+    left: 220px;
+    top: 168px;
+    border: 1px solid red;
+}
+
+.solo-letras {
+    color: #495057;
+    font-size: 12px;
+    border: 1px solid red;
+    display: inline-block;
+    position: relative;
+    left: 180px;
+    top: -20px;
+}
+
+.boton-encriptar {
+    display: inline;
+}
+
+.boton-desencriptar {
+    display: inline;
+}
+
+.container-box {
+    height: 300px;
+    width: 304px;
+    padding: 20px 20px 225px 20px;
+    margin-top: 0px;
+    margin-left: 940px;
+    border: 1px solid red;
+}
+
+.alura-image {
+    height: 300px;
+    width: 290px;
+    margin-top: 5px;
+    display: inline;
+}
+
+.no-encontrado {
+    color: #343A40;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid red;
+    padding: 5px 5px 5px 20px;
+    margin-top: 5px;
+}
+
+.texto-encriptado {
+    color: #495057;
+    font-size: 16px;
+    border: 1px solid red;
+    text-align: center;
+}
+
