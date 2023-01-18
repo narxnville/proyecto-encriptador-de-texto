@@ -1,3 +1,7 @@
+body {
+    background: #e5e5e5;
+}
+
 header img {
     width: 120px;
     height: 48px;
@@ -35,42 +39,17 @@ header img {
 .boton-desencriptar {
     display: inline-block;
 }
+/*
+border: 1px solid black
+display...
+margin (top-right-bottom-left)
+padding (...---...)
+height
+width
+background
+color
+text-align
+font-size
+*/
 
-.caja-margen {
-    border: 1px solid green;
-    position: relative;
-}
-
-.contenido-caja {
-    height: 300px;
-    width: 304px;
-    padding: 20px 20px 225px 20px;
-    margin-top: 0px;
-    margin-left: 940px;
-}
-
-.alura-image {
-    height: 300px;
-    width: 302px;
-    margin-top: 5px;
-    display: inline-block;
-    border: 1px solid red;
-}
-
-.no-encontrado {
-    color: #343A40;
-    text-align: center;
-    font-size: 24px;
-    border: 1px solid red;
-    padding: 5px 5px 5px 20px;
-    margin-top: 20px;
-}
-
-.texto-encriptado {
-    color: #495057;
-    font-size: 16px;
-    border: 1px solid red;
-    text-align: center;
-    margin-top: 10px;
-}
 
