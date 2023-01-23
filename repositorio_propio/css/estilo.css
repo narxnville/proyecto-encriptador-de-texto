@@ -2,7 +2,7 @@ body {
     background: #e5e5e5;
 }
 
-header img {
+header h1 img {
     width: 120px;
     height: 48px;
     position: relative;
@@ -46,10 +46,15 @@ margin (top-right-bottom-left)
 padding (...---...)
 height
 width
+vertical-align
 background
+background-color (recuadro de mensaje no encontrado)...
+text-transform
 color
 text-align
 font-size
+font-weight
+text-decoration
 */
 
 
