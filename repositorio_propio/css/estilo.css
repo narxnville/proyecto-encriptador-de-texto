@@ -5,13 +5,48 @@ body {
 header h1 img {
     width: 120px;
     height: 48px;
-    position: relative;
-    border: 1px solid red;
+    position: absolute;
     left: 40px;
     top: 40px;
 }
 
-.ingresar-texto {
+.encriptar-texto {
+    position: absolute;
+    top: 168px;
+    left: 240px;
+}
+
+.total-lista {
+    border: 1px solid red;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 30px 10px 180px 10px;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.imagen {
+    border: 1px solid red;
+    position: relative;
+    left: 30px;
+}
+
+.mensaje-no-encontrado {
+    border: 1px solid red;
+    text-align: center;
+    margin: 10px 32px;
+    padding: 10px 2px;
+}
+
+.ingresar-mensaje {
+    border: 1px solid red;
+    text-align: center;
+    margin: 10px 32px;
+}
+
+/* .ingresar-texto {
     color: #0A3871;
     font-size: 34px;
     font-weight: bold;
@@ -38,7 +73,8 @@ header h1 img {
 
 .boton-desencriptar {
     display: inline-block;
-}
+} */
+
 /*
 border: 1px solid black
 display...
@@ -46,6 +82,7 @@ margin (top-right-bottom-left)
 padding (...---...)
 height
 width
+position
 vertical-align
 background
 background-color (recuadro de mensaje no encontrado)...
