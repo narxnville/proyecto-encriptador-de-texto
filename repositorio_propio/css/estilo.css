@@ -69,6 +69,11 @@ form label {
     left: 0px;
 }
 
+.texto-a-encriptar {
+    padding-right: 250px;
+    padding-bottom: 200px;
+}
+
 .alerta-imagen {
     position: absolute;
     bottom: 98px;
