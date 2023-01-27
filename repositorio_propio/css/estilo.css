@@ -16,6 +16,15 @@ header h1 img {
     left: 240px;
 }
 
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.caja-encriptada {
+    padding: 140px 150px;
+}
+
 #lista {
     background: #FFFFFF;
     display: inline-block;
@@ -62,12 +71,13 @@ header h1 img {
 
 .alerta-imagen {
     position: absolute;
-    bottom: 92px;
+    bottom: 98px;
     left: 240px;
 }
 
 .solo-letras {
     position: absolute;
+    margin-bottom: 5px;
     bottom: 95px;
     left: 260px;
 }
@@ -83,35 +93,6 @@ header h1 img {
     bottom: 70px;
     left: 330px;
 }
-
-/* .ingresar-texto {
-    color: #0A3871;
-    font-size: 34px;
-    font-weight: bold;
-    display: inline;
-    position: absolute;
-    left: 220px;
-    top: 168px;
-    border: 1px solid red;
-}
-
-.solo-letras {
-    color: #495057;
-    font-size: 12px;
-    border: 1px solid red;
-    display: inline-block;
-    position: relative;
-    left: 180px;
-    top: -20px;
-}
-
-.boton-encriptar {
-    display: inline-block;
-}
-
-.boton-desencriptar {
-    display: inline-block;
-} */
 
 /*
 border: 1px solid black
