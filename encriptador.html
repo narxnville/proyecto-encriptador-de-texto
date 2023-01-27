@@ -14,12 +14,12 @@
         </header>
 
        <main>
-        <form>
-            <div class="encriptar-texto">
-                <label for="texto-a-encriptar">Ingrese el texto aquí:</label>
-                <input type="text" class="texto-a-encriptar" id="texto-a-encriptar">
-            </div>
-        </form>
+            <form>
+                <fieldset class="encriptar-texto">
+                    <label for="texto-a-encriptar">Ingrese el texto aquí:</label>
+                    <input type="text" class="texto-a-encriptar" id="texto-a-encriptar" required>
+                </fieldset>
+            </form>
             <ul id="lista">
                 <li class="contenido-lista">
                     <img class="imagen" src="imagenes/icono.png" alt="Persona con lupa">
@@ -27,20 +27,17 @@
                     <p class="ingresar-mensaje">Ingresa el mensaje que deseas encriptar o desencriptar</p>
                 </li>
             </ul>
-            <div class="alerta-imagen">
-                <img src="imagenes/alerta.png" alt="Ícono con alerta">
-            </div>
-            <div class="solo-letras">
+            <fieldset class="imagen-alerta">
+                <img src="imagenes/alerta.png" alt="Ícono de alerta">
+            </fieldset>
+            <fieldset class="solo-letras">
                 <p>Solo letras minúsculas y sin acentos</p>
-            </div>
+            </fieldset>
 
-            <div class="boton-encriptar">
-                <input type="submit" value="Encriptar">
-            </div>
-
-            <div class="boton-desencriptar">
-                <input type="submit" value="Desencriptar">
-            </div>
+            <fieldset class="botones">
+                <input type="submit" class="boton-encriptar" value="Encriptar">
+                <input type="submit" class="boton-desencriptar" value="Desencriptar">
+            </fieldset>
         </main>
     </body>
 </html>

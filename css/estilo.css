@@ -21,8 +21,52 @@ form label {
     margin-bottom: 10px;
 }
 
-.caja-encriptada {
-    padding: 140px 150px;
+.texto-a-encriptar {
+    padding-right: 250px;
+    padding-bottom: 200px;
+}
+
+.imagen-alerta {
+    position: absolute;
+    bottom: 130px;
+    left: 250px;
+}
+
+.solo-letras {
+    position: absolute;
+    margin-bottom: 10px;
+    bottom: 123px;
+    margin-left: 270px;
+}
+
+.boton-encriptar {
+    position: absolute;
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 20px;
+    width: 280px;
+    height: 50px;
+    bottom: 70px;
+    left: 250px;
+}
+
+.boton-desencriptar {
+    position: absolute;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    width: 280px;
+    height: 50px;
+    border-radius: 20px;
+    bottom: 70px;
+    left: 545px;
+}
+
+.botones .boton-encriptar {
+    color: #FFFFFF;
+}
+
+.botones .boton-desencriptar {
+    color: #0A3871;
 }
 
 #lista {
@@ -69,35 +113,6 @@ form label {
     left: 0px;
 }
 
-.texto-a-encriptar {
-    padding-right: 250px;
-    padding-bottom: 200px;
-}
-
-.alerta-imagen {
-    position: absolute;
-    bottom: 98px;
-    left: 240px;
-}
-
-.solo-letras {
-    position: absolute;
-    margin-bottom: 5px;
-    bottom: 95px;
-    left: 260px;
-}
-
-.boton-encriptar {
-    position: absolute;
-    bottom: 70px;
-    left: 250px;
-}
-
-.boton-desencriptar {
-    position: absolute;
-    bottom: 70px;
-    left: 330px;
-}
 
 /*
 border: 1px solid black
