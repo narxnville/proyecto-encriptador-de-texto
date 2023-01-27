@@ -14,10 +14,12 @@
         </header>
 
        <main>
+        <form>
             <div class="encriptar-texto">
-                <input type="textarea" name="texto-a-encriptar" id="texto-a-encriptar" placeholder="Ingrese el texto aquí">
+                <label for="texto-a-encriptar">Ingrese el texto aquí:</label>
+                <input type="textarea" name="texto-a-encriptar" id="texto-a-encriptar">
             </div>
-
+        </form>
             <ul id="lista">
                 <li class="contenido-lista">
                     <img class="imagen" src="imagenes/icono.png" alt="Persona con lupa">
@@ -25,16 +27,19 @@
                     <p class="ingresar-mensaje">Ingresa el mensaje que deseas encriptar o desencriptar</p>
                 </li>
             </ul>
+            <div class="alerta-imagen">
+                <img src="imagenes/alerta.png" alt="Ícono con alerta">
+            </div>
             <div class="solo-letras">
                 <p>Solo letras minúsculas y sin acentos</p>
             </div>
 
             <div class="boton-encriptar">
-                <button>Encriptar</button>
+                <input type="submit" value="Encriptar">
             </div>
 
             <div class="boton-desencriptar">
-               <button>Desencriptar</button>
+                <input type="submit" value="Desencriptar">
             </div>
         </main>
     </body>

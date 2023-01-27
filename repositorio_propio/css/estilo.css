@@ -60,6 +60,30 @@ header h1 img {
     left: 0px;
 }
 
+.alerta-imagen {
+    position: absolute;
+    bottom: 92px;
+    left: 240px;
+}
+
+.solo-letras {
+    position: absolute;
+    bottom: 95px;
+    left: 260px;
+}
+
+.boton-encriptar {
+    position: absolute;
+    bottom: 70px;
+    left: 250px;
+}
+
+.boton-desencriptar {
+    position: absolute;
+    bottom: 70px;
+    left: 330px;
+}
+
 /* .ingresar-texto {
     color: #0A3871;
     font-size: 34px;
