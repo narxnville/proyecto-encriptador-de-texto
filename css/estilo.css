@@ -3,6 +3,7 @@ body {
 }
 
 header h1 img {
+    cursor: pointer;
     width: 120px;
     height: 48px;
     position: absolute;
@@ -34,6 +35,7 @@ form label {
 
 .solo-letras {
     position: absolute;
+    color: #495057;
     margin-bottom: 10px;
     bottom: 123px;
     margin-left: 270px;
@@ -48,6 +50,8 @@ form label {
     height: 50px;
     bottom: 70px;
     left: 250px;
+    transition: 0.5s all;
+    cursor: pointer;
 }
 
 .boton-desencriptar {
@@ -59,6 +63,8 @@ form label {
     border-radius: 20px;
     bottom: 70px;
     left: 545px;
+    transition: 0.5s all;
+    cursor: pointer;
 }
 
 .botones .boton-encriptar {
@@ -69,10 +75,23 @@ form label {
     color: #0A3871;
 }
 
-#lista {
+.boton-encriptar:hover, .boton-desencriptar:hover {
+    width: 285px;
+    height: 52px;
+    /* transform: scale(1.1); */
+}
+
+.boton-encriptar:active, .boton-desencriptar:active {
+    width: 280px;
+    height: 50px;
+}
+
+
+.lista {
     background: #FFFFFF;
     display: inline-block;
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
+    border: none;
     border-radius: 20px;
     position: absolute;
     top: 0px;
