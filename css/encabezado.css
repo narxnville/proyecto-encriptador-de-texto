@@ -1,0 +1,35 @@
+body {
+    background: #F3F5FC;
+}
+
+.logo__alura {
+    cursor: pointer;
+    width: 120px;
+    height: 48px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+
+
+/*
+border: 1px solid black
+display...
+margin (top-right-bottom-left)
+padding (...---...)
+height
+width
+position
+vertical-align
+background
+background-color (recuadro de mensaje no encontrado)...
+text-transform
+color
+text-align
+font-size
+font-weight
+text-decoration
+*/
+
+

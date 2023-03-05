@@ -5,7 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/encabezado.css">
+        <link rel="stylesheet" href="css/texto-botones.css">
+        <link rel="stylesheet" href="css/mensaje-encriptado.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
@@ -14,32 +16,31 @@
     </head>
     <body>
         <header>
-           <h1><a href="encriptador.html"><img src="imagenes/logo_alura.png" alt="Logo de Alura Latam"></a></h1>
+           <h1 class="logo__alura"><a href="encriptador.html"><img src="imagenes/logo_alura.png" alt="Logo Alura Latam"></a></h1>
         </header>
 
        <main>
             <form>
-                <fieldset class="encriptar-texto">
-                    <textarea name="texto-a-encriptar" class="texto-a-encriptar" id="texto-a-encriptar" placeholder="Ingresa el texto aquí:" required cols="30" rows="10"></textarea>
+                <fieldset class="texto__a__encriptar">
+                    <textarea name="texto__a__encriptar" class="texto__a__encriptar" id="texto__a__encriptar" placeholder="Ingresa el texto aquí:" required cols="30" rows="10"></textarea>
                 </fieldset>
             </form>
-            <ul class="lista">
-                <li class="contenido-lista">
-                    <img class="imagen" src="imagenes/icono.png" alt="Persona con lupa">
-                    <p class="mensaje-no-encontrado">Ningún mensaje fue encontrado</p>
-                    <p class="ingresar-mensaje">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <ul class="texto__encriptado">
+                <li>
+                    <img class="texto__imagen" src="imagenes/icono.png" alt="Persona con lupa">
+                    <p class="mensaje__no__encontrado">Ningún mensaje fue encontrado</p>
+                    <p class="mensaje__a__ingresar">Ingresa el texto que desees encriptar o desencriptar.</p>
                 </li>
             </ul>
-            <section class="imagen-alerta">
+            <section class="imagen__alerta">
                 <img src="imagenes/alerta.png" alt="Ícono de alerta">
             </section>
-            <section class="solo-letras">
+            <section class="solo__letras">
                 <p>Sólo letras minúsculas y sin acentos</p>
             </section>
-
             <fieldset class="botones">
-                <input type="submit" class="boton-encriptar" value="Encriptar">
-                <input type="submit" class="boton-desencriptar" value="Desencriptar">
+                <input type="submit" class="boton__encriptar" value="Encriptar">
+                <input type="submit" class="boton__desencriptar" value="Desencriptar">
             </fieldset>
         </main>
     </body>

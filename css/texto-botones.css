@@ -1,0 +1,92 @@
+.texto__a__encriptar {
+    position: absolute;
+    top: 118px;
+    left: 250px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.texto__a__encriptar {
+    background: #F3F5FC;
+    color: #0A3871;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    padding: 10px 10px 250px 10px;
+    height: 60px;
+    width: 600px;
+    border: none;
+}
+
+.texto__a__encriptar::placeholder {
+    color: #0A3871;
+    font-size: 20px;
+    height: 40px;
+    width: 400px;
+}
+
+.imagen__alerta {
+    position: absolute;
+    bottom: 130px;
+    left: 250px;
+}
+
+.solo__letras {
+    position: absolute;
+    color: #495057;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    margin-bottom: 12px;
+    bottom: 123px;
+    left: 272px;
+}
+
+.boton__encriptar {
+    position: absolute;
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    font-family: 'Inter', sans-serif;
+    border-radius: 20px;
+    width: 290px;
+    height: 50px;
+    bottom: 70px;
+    left: 250px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.boton__desencriptar {
+    position: absolute;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    font-family: 'Inter', sans-serif;
+    width: 290px;
+    height: 50px;
+    border-radius: 20px;
+    bottom: 70px;
+    left: 575px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.botones .boton__encriptar {
+    color: #FFFFFF;
+}
+
+.botones .boton__desencriptar {
+    color: #0A3871;
+}
+
+.boton__encriptar:hover, .boton__desencriptar:hover {
+    width: 292px;
+    height: 52px;
+    /* transform: scale(1.1); */
+}
+
+.boton__encriptar:active, .boton__desencriptar:active {
+    width: 292px;
+    height: 50px;
+}
