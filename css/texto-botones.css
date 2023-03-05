@@ -1,15 +1,11 @@
-.texto__a__encriptar {
+.bloque__principal {
     position: absolute;
     top: 118px;
     left: 250px;
 }
 
-form label {
-    display: block;
-    margin-bottom: 10px;
-}
 
-.texto__a__encriptar {
+.texto__bloque {
     background: #F3F5FC;
     color: #0A3871;
     font-size: 20px;
@@ -21,7 +17,7 @@ form label {
     border: none;
 }
 
-.texto__a__encriptar::placeholder {
+.texto__bloque::placeholder {
     color: #0A3871;
     font-size: 20px;
     height: 40px;
